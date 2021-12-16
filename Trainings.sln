@@ -5,11 +5,15 @@ VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecisionStructuresAndLoops", "DecisionStructuresAndLoops\DecisionStructuresAndLoops.csproj", "{73AA2848-EF1D-4683-AB79-DB92F368FDC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputOperations", "InputOperations\InputOperations.csproj", "{03975735-FA3B-4467-B9B2-9BCE8DCE2C62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InputOperations", "InputOperations\InputOperations.csproj", "{03975735-FA3B-4467-B9B2-9BCE8DCE2C62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomObject", "RandomObject\RandomObject.csproj", "{A7216363-AB55-44CA-8BA6-06916E69EEF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomObject", "RandomObject\RandomObject.csproj", "{A7216363-AB55-44CA-8BA6-06916E69EEF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeCreation", "ShapeCreation\ShapeCreation.csproj", "{B2C025F4-7AFD-4553-BF9C-48531198B3D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeCreation", "ShapeCreation\ShapeCreation.csproj", "{B2C025F4-7AFD-4553-BF9C-48531198B3D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TerminalGames", "TerminalGames", "{A22A437B-284A-43D3-A8F2-DAA5C5CCE090}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoomGame", "BoomGame\BoomGame.csproj", "{D4477054-2C85-42D9-8406-AA4DF8E4FF0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +37,16 @@ Global
 		{B2C025F4-7AFD-4553-BF9C-48531198B3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2C025F4-7AFD-4553-BF9C-48531198B3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2C025F4-7AFD-4553-BF9C-48531198B3D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4477054-2C85-42D9-8406-AA4DF8E4FF0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4477054-2C85-42D9-8406-AA4DF8E4FF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4477054-2C85-42D9-8406-AA4DF8E4FF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4477054-2C85-42D9-8406-AA4DF8E4FF0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4477054-2C85-42D9-8406-AA4DF8E4FF0C} = {A22A437B-284A-43D3-A8F2-DAA5C5CCE090}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B492DB9E-1F74-4D4F-9BCD-6F82E3CC964B}
