@@ -22,7 +22,7 @@ namespace ArrayShapes
             {
                 for (int column = 0; column < matrix.GetLength(1); column++)
                 {
-                    if ((line + column >= matrix.GetLength(0) - 1 && line - column <= matrix.GetLength(0) - 1))
+                    if ((line + column >= matrix.GetLength(0) - 1 && column - line <= matrix.GetLength(0) - 1))
                     {
                         matrix[line,column] = true;
                     }
@@ -50,16 +50,16 @@ namespace ArrayShapes
                 {
                     if ((i + k >= middlePoint && k - i <= middlePoint))
                     {
-                        Console.WriteLine("*");
+                        Console.Write("*");
                     }
                     else if (i == middlePoint)
-                        Console.WriteLine("*");
+                        Console.Write("*");
                     else
-                        Console.WriteLine(" ");
+                        Console.Write(" ");
                 }
                 Console.WriteLine();
             }
-            Console.WriteLine();
+            Console.ReadKey();
         }
     }
 }

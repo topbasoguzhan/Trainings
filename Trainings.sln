@@ -13,13 +13,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeCreation", "ShapeCreat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TerminalGames", "TerminalGames", "{A22A437B-284A-43D3-A8F2-DAA5C5CCE090}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoomGame", "BoomGame\BoomGame.csproj", "{D4477054-2C85-42D9-8406-AA4DF8E4FF0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoomGame", "BoomGame\BoomGame.csproj", "{D4477054-2C85-42D9-8406-AA4DF8E4FF0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{9B7AD2E4-26AC-49E8-ADB4-2F582F216078}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{9B7AD2E4-26AC-49E8-ADB4-2F582F216078}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayShapes", "ArrayShapes\ArrayShapes.csproj", "{80700381-148E-42BA-8C85-642208047A88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayShapes", "ArrayShapes\ArrayShapes.csproj", "{80700381-148E-42BA-8C85-642208047A88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissionImpossible", "MissionImpossible\MissionImpossible.csproj", "{CE8C2AD8-CF3A-4DE7-8C2D-681874F24694}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MissionImpossible", "MissionImpossible\MissionImpossible.csproj", "{CE8C2AD8-CF3A-4DE7-8C2D-681874F24694}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArgsExample", "ArgsExample\ArgsExample.csproj", "{D94E657E-2C9E-49ED-AB09-732E039C3A5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodUsage", "MethodUsage\MethodUsage.csproj", "{BCE69402-6F1E-4271-B922-712B892807A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodUsage2", "MethodUsage2\MethodUsage2.csproj", "{1B7B4EB3-1C33-4716-9898-3C209F74BA98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +65,18 @@ Global
 		{CE8C2AD8-CF3A-4DE7-8C2D-681874F24694}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE8C2AD8-CF3A-4DE7-8C2D-681874F24694}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE8C2AD8-CF3A-4DE7-8C2D-681874F24694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D94E657E-2C9E-49ED-AB09-732E039C3A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94E657E-2C9E-49ED-AB09-732E039C3A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D94E657E-2C9E-49ED-AB09-732E039C3A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94E657E-2C9E-49ED-AB09-732E039C3A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCE69402-6F1E-4271-B922-712B892807A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE69402-6F1E-4271-B922-712B892807A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE69402-6F1E-4271-B922-712B892807A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE69402-6F1E-4271-B922-712B892807A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B7B4EB3-1C33-4716-9898-3C209F74BA98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7B4EB3-1C33-4716-9898-3C209F74BA98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7B4EB3-1C33-4716-9898-3C209F74BA98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7B4EB3-1C33-4716-9898-3C209F74BA98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
