@@ -25,9 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArgsExample", "ArgsExample\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodUsage", "MethodUsage\MethodUsage.csproj", "{BCE69402-6F1E-4271-B922-712B892807A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodUsage2", "MethodUsage2\MethodUsage2.csproj", "{1B7B4EB3-1C33-4716-9898-3C209F74BA98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodUsage2", "MethodUsage2\MethodUsage2.csproj", "{1B7B4EB3-1C33-4716-9898-3C209F74BA98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangmanGame", "HangmanGame\HangmanGame.csproj", "{DF91AEEB-D382-4DCA-9A76-0E260E4AEB2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HangmanGame", "HangmanGame\HangmanGame.csproj", "{DF91AEEB-D382-4DCA-9A76-0E260E4AEB2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberGuessGame", "NumberGuessGame\NumberGuessGame.csproj", "{A22DB4EA-9120-479E-B4F1-275FFD481648}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,10 @@ Global
 		{DF91AEEB-D382-4DCA-9A76-0E260E4AEB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF91AEEB-D382-4DCA-9A76-0E260E4AEB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF91AEEB-D382-4DCA-9A76-0E260E4AEB2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A22DB4EA-9120-479E-B4F1-275FFD481648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A22DB4EA-9120-479E-B4F1-275FFD481648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A22DB4EA-9120-479E-B4F1-275FFD481648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A22DB4EA-9120-479E-B4F1-275FFD481648}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,6 +97,7 @@ Global
 		{D4477054-2C85-42D9-8406-AA4DF8E4FF0C} = {A22A437B-284A-43D3-A8F2-DAA5C5CCE090}
 		{CE8C2AD8-CF3A-4DE7-8C2D-681874F24694} = {A22A437B-284A-43D3-A8F2-DAA5C5CCE090}
 		{DF91AEEB-D382-4DCA-9A76-0E260E4AEB2B} = {A22A437B-284A-43D3-A8F2-DAA5C5CCE090}
+		{A22DB4EA-9120-479E-B4F1-275FFD481648} = {A22A437B-284A-43D3-A8F2-DAA5C5CCE090}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B492DB9E-1F74-4D4F-9BCD-6F82E3CC964B}
